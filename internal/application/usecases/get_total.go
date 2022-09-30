@@ -2,9 +2,6 @@ package usecases
 
 import "github.com/rafaelpapastamatiou/imersao-go/internal/application/repositories"
 
-type GetTotalInputDTO struct {
-}
-
 type GetTotalOutputDTO struct {
 	Total int
 }
